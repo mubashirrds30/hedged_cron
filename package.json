@@ -1,0 +1,37 @@
+{
+  "name": "hedged_backend",
+  "version": "1.0.0",
+  "description": "Backgroud process that connects to TWmedia services and update the database for the configured Events",
+  "private": true,
+  "main": "index.js",
+  "standard": {
+    "ignore": [
+      "mock/**.js"
+    ]
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@sentry/node": "^7.24.2",
+    "@sentry/tracing": "^7.24.2",
+    "aws-sdk": "^2.1219.0",
+    "axios": "^0.21.1",
+    "cors": "^2.8.1",
+    "ejs-html": "^5.1.5",
+    "express": "^4.14.0",
+    "fast-csv": "^4.3.6",
+    "helmet": "^3.4.0",
+    "http-status": "^0.2.5",
+    "moment-timezone": "^0.5.21",
+    "morgan": "^1.7.0",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.7.1",
+    "nodemon": "^2.0.20",
+    "promise-retry": "^2.0.1",
+    "redis": "^3.1.2",
+    "request": "^2.87.0"
+  }
+}

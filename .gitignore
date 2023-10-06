@@ -1,0 +1,13 @@
+# package directories
+node_modules
+jspm_packages
+
+public/**
+
+staging.env
+production.env
+.env
+
+.vscode
+# Serverless directories
+.serverless
